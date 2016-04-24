@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Recycleviewex</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_timeslot">timeslot</string>
+    <string name="title_activity_date">date</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_finalscreen">finalscreen</string>
+</resources>

@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="navigationdrawer.com.example.parth.recycleviewex.date">
+
+
+    <Button
+        android:background="@drawable/button_color"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="monday"
+        android:id="@+id/button"
+        android:layout_marginTop="51dp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="monday" />
+
+    <Button
+        android:background="@drawable/button_color"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tuesday"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:onClick="tuesday" />
+
+    <Button
+        android:background="@drawable/button_color"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wednesday"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp"
+        android:onClick="wednesday" />
+
+    <Button
+        android:background="@drawable/button_color"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thursday"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="93dp"
+        android:paddingRight="93dp"
+        android:onClick="thursday" />
+
+    <Button
+        android:background="@drawable/button_color"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="friday"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="107dp"
+        android:paddingRight="107dp"
+        android:onClick="friday" />
+
+
+
+</RelativeLayout>

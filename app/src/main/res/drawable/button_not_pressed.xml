@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- stroke is for the border of buttons   -->
+
+    <stroke
+        android:width="0dp"
+        android:color="#878787"
+        />
+
+    <!-- corners is for the curved edges of buttons   -->
+
+    <corners
+        android:radius="3dp"></corners>
+
+    <!-- gradient is for setting start end and center colors   -->
+    <gradient
+        android:startColor="#009688"
+        android:centerColor="#009688"
+        android:endColor="#009688"
+        android:angle="270" />
+</shape>
